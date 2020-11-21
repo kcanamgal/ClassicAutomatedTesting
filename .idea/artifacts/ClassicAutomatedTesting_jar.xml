@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="ClassicAutomatedTesting:jar">
+    <output-path>$PROJECT_DIR$/Demo</output-path>
+    <root id="root">
+      <element id="archive" name="testSelection.jar">
+        <element id="module-output" name="ClassicAutomatedTesting" />
+      </element>
+    </root>
+  </artifact>
+</component>

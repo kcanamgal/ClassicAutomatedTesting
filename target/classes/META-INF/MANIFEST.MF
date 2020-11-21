@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Main-Class: org.com.ClassicAutomatedTesting.Main
-Class-Path: lib\com.ibm.wala.util-1.5.4.jar lib\com.ibm.wala.cast.java-1
- .5.4.jar lib\com.ibm.wala.cast-1.5.4.jar lib\com.ibm.wala.shrike-1.5.4.
- jar lib\com.ibm.wala.core-1.5.4.jar
+Class-Path: com.ibm.wala.util-1.5.4.jar com.ibm.wala.cast.java-1.5.4.jar
+  com.ibm.wala.cast-1.5.4.jar com.ibm.wala.shrike-1.5.4.jar com.ibm.wala
+ .core-1.5.4.jar
 

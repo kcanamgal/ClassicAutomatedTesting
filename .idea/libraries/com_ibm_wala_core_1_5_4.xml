@@ -1,11 +1,9 @@
 <component name="libraryTable">
   <library name="com.ibm.wala.core-1.5.4">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/com.ibm.wala.core-1.5.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Project/src/main/resources/com.ibm.wala.core-1.5.4.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.ideaLibSources/com.ibm.wala.core-1.5.4-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

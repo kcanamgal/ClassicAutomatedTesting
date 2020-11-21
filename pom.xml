@@ -21,33 +21,43 @@
     </dependencies>
 
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
+<!--        <finalName>testSelection</finalName>-->
+<!--            <plugins>-->
+<!--                <plugin>-->
+<!--                    <groupId>org.apache.maven.plugins</groupId>-->
+<!--                    <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                    <version>3.7.0</version>-->
+<!--                    <configuration>-->
+<!--                        <target>1.8</target>-->
+<!--                        <source>1.8</source>-->
+<!--                        <encoding>UTF-8</encoding>-->
+<!--                    </configuration>-->
+<!--                </plugin>-->
+<!--                <plugin>-->
+<!--                    <groupId>org.apache.maven.plugins</groupId>-->
+<!--                    <artifactId>maven-assembly-plugin</artifactId>-->
+<!--                    <version>3.1.0</version>-->
+<!--                    <configuration>-->
+<!--                        <archive>-->
+<!--                            <manifest>-->
+<!--                                <mainClass>org.com.ClassicAutomatedTesting.Main</mainClass>-->
+<!--                            </manifest>-->
+<!--                        </archive>-->
+<!--                    </configuration>-->
+<!--                    <executions>-->
+<!--                        <execution>-->
+<!--                            <id>make-assembly</id>-->
+<!--                            <phase>package</phase>-->
+<!--                            <goals>-->
+<!--                                <goal>single</goal>-->
+<!--                            </goals>-->
+<!--                        </execution>-->
+<!--                    </executions>-->
+<!--                </plugin>-->
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.1.1</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <useUniqueVersions>false</useUniqueVersions>
-                            <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>org.com.ClassicAutomatedTesting.Main</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
-            </plugin>
-        </plugins>
+<!--            </plugins>-->
+
+
     </build>
 
 
