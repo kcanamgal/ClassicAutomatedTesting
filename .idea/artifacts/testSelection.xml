@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="testSelection">
+    <output-path>$PROJECT_DIR$/Demo</output-path>
+    <root id="archive" name="testSelection.jar">
+      <element id="module-test-output" name="ClassicAutomatedTesting" />
+      <element id="module-output" name="ClassicAutomatedTesting" />
+      <element id="library" level="project" name="com.ibm.wala.cast.java-1.5.4" />
+      <element id="library" level="project" name="com.ibm.wala.cast-1.5.4" />
+      <element id="library" level="project" name="com.ibm.wala.core-1.5.4" />
+      <element id="library" level="project" name="com.ibm.wala.shrike-1.5.4" />
+      <element id="library" level="project" name="com.ibm.wala.util-1.5.4" />
+    </root>
+  </artifact>
+</component>
