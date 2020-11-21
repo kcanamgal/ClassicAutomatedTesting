@@ -1,6 +1,5 @@
 package org.com.ClassicAutomatedTesting;
 
-import org.com.ClassicAutumatedTesting.Main;
 import org.junit.Test;
 
 public class MainTest {
@@ -19,13 +18,13 @@ public class MainTest {
         instruction.append("-").append(command).append(" ").append(project_target).append(" ").append(change_info);
         return instruction.toString();
     }
-//
-//    @Test
-//    public void Test0() throws Exception {
-//        String instruction = makeInstruction('m', CMD, CHANGE_INFO);
-//        Main.main(instruction.split(" "));
-//    }
-//
+
+    @Test
+    public void Test0() throws Exception {
+        String instruction = makeInstruction('m', CMD, CHANGE_INFO);
+        Main.main(instruction.split(" "));
+    }
+
 //    @Test
 //    public void Test01() throws Exception {
 //        String instruction = makeInstruction('c', CMD, CHANGE_INFO);
