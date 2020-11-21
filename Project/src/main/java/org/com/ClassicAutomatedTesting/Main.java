@@ -19,7 +19,8 @@ public class Main {
      */
     public static void main(String[] args) throws Exception {
         // 以下至空行都是是读取命令行参数部分
-        if (!(args[0].startsWith("-"))){
+        if (!(args[0].equals("-c") || args[0].equals("-m"))){
+            System.out.println("Error argument: " + args[0] + ", the first argument should be \"-c\" or \"-m\"");
             return;
         }
         char command = args[0].charAt(1);

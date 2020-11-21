@@ -26,6 +26,7 @@ public class MavenProject {
 
     private static final String TEST_CLASS = "test-classes";
 
+    // target文件所在目录
     private final String path;
 
     private final String name;
