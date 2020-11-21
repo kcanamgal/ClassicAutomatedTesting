@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact name="ClassicAutomatedTesting:jar">
+  <artifact build-on-make="true" name="ClassicAutomatedTesting:jar">
     <output-path>$PROJECT_DIR$/Demo</output-path>
     <root id="root">
       <element id="archive" name="testSelection.jar">
